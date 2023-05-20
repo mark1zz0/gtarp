@@ -1,0 +1,265 @@
+/* Задний фон */
+.container {
+    position: relative;
+
+}
+
+.bgc {
+    position: relative;
+
+}
+
+/* Общий контейнер*/
+.registration-container {
+    margin: 0 auto;
+    position: absolute;
+    width: 400px;
+    height: 465px;
+    left: 760px;
+    top: 378px;
+    background: linear-gradient(30.18deg, #F6BB8B -24.15%, #B57AB3 146.65%);
+    border-radius: 50px 50px 5px 5px;
+    justify-content: space-around;
+    box-shadow: 0px 4px 10px 4px rgba(156, 78, 153, 0.15);
+}
+
+/* Форма */
+.registration-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Картинка */
+.promo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 115.96px;
+    left: 750px;
+    top: 259px;
+}
+
+/* Поля ввода */
+.log {
+    box-sizing: border-box;
+    width: 290px;
+    height: 45px;
+    background: #DDB6C3;
+    border: 1px solid #9E96F0;
+    border-radius: 15px;
+    position: absolute;
+    top: 50px;
+
+}
+
+.Email {
+    box-sizing: border-box;
+    position: absolute;
+    width: 290px;
+    height: 45px;
+    background: #DDB6C3;
+    border: 1px solid #9E96F0;
+    border-radius: 15px;
+    align-self: flex-start;
+    top: 105px;
+}
+
+.pass {
+    box-sizing: border-box;
+    position: absolute;
+    width: 290px;
+    height: 45px;
+    background: #DDB6C3;
+    border: 1px solid #9E96F0;
+    border-radius: 15px;
+    align-self: flex-start;
+    top: 160px;
+}
+
+.pass2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 290px;
+    height: 45px;
+    background: #DDB6C3;
+    border: 1px solid #9E96F0;
+    border-radius: 15px;
+    align-self: flex-start;
+    top: 215px;
+}
+
+.promocode {
+    box-sizing: border-box;
+    position: absolute;
+    width: 290px;
+    height: 45px;
+    background: #DDB6C3;
+    border: 1px solid #9E96F0;
+    border-radius: 15px;
+    align-self: flex-start;
+    top: 270px;
+}
+
+/* Кнопки */
+.signin {
+    position: absolute;
+    width: 290px;
+    height: 45px;
+    background: linear-gradient(96deg, #B57AB3 -170.38%, #6BCDD4 -170.34%, #9E96F0 185.02%);
+    border-radius: 15px;
+    margin-bottom: 80px;
+    outline: none;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    align-self: flex-end;
+}
+
+.return {
+    position: absolute;
+    width: 290px;
+    height: 45px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    background: linear-gradient(94.61deg, #F6BB8B 15%, #F19850 191.14%);
+    font-size: 16px;
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+}
+
+/* Стили для полей */
+.input-login {
+    box-sizing: border-box;
+    width: 240px;
+    height: 42px;
+    background: #DDB6C3;
+    border: 0px solid #9E96F0;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 45px;
+    outline: none;
+}
+
+.input-email {
+    box-sizing: border-box;
+    width: 240px;
+    height: 42px;
+    background: #DDB6C3;
+    border: 0px solid #9E96F0;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 45px;
+    outline: none;
+}
+
+.input-pass {
+    box-sizing: border-box;
+    width: 240px;
+    height: 42px;
+    background: #DDB6C3;
+    border: 0px solid #9E96F0;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 45px;
+    outline: none;
+}
+
+.input-pass-repeat {
+    box-sizing: border-box;
+    width: 240px;
+    height: 42px;
+    background: #DDB6C3;
+    border: 0px solid #9E96F0;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 45px;
+    outline: none;
+}
+
+.input-promo {
+    box-sizing: border-box;
+    width: 240px;
+    height: 42px;
+    background: #DDB6C3;
+    border: 0px solid #9E96F0;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 45px;
+    outline: none;
+}
+
+
+/* Картинки для полей */
+.profile {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    margin-left: 15px;
+    margin-top: 12px;
+}
+
+.passicon {
+    position: absolute;
+    width: 27px;
+    height: 9px;
+    margin-left: 12px;
+    margin-top: 18px;
+
+}
+
+.promoic {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-top: 12px;
+
+}
+
+.emailic {
+    position: absolute;
+    width: 22px;
+    height: 15px;
+    margin-left: 14px;
+    margin-top: 14px;
+
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+
+
+input::placeholder {
+    color: #8D8D8D;
+    font-style: Montserrat;
+}
+
+.signin:hover {
+    background: linear-gradient(97.07deg, #6BCDD4 29.29%, #9E96F0 325.3%);
+}
+
+
+.signup:hover {
+    background: linear-gradient(99.43deg, #FCDF99 31.84%, #F19850 139.73%);
+}
+
+.signin:focus {
+    outline: none;
+}
+
+.signin:hover,
+.return:hover {
+  opacity: 0.8; /* Понижение непрозрачности при наведении */
+}
+
+.signin:active,
+.return:active {
+  transform: scale(0.95); /* Уменьшение размера при активации */
+}
